@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['B-1_TopDown', 'B-2_TopDown', 'C-130_TopDown', 'C-5_TopDown', 'E-3_TopDown']
+
+roboflow:
+  workspace: militaryvehiclesworkspace-kiavo
+  project: military-vehicle-eyp3f
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/militaryvehiclesworkspace-kiavo/military-vehicle-eyp3f/dataset/2
