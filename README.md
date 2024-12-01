@@ -47,16 +47,22 @@ Evaluation metrics can be found in the "runs\detect\train." folder after the cod
 
 ### **Commands**
 
-Run the following command to isntall required libraries:
+Run the following command to install required libraries:
 
 ```bash
-    pip install -r requirements.txt
+    pip install ultralytics
 ```
 
 Run the following command to get the test results from the report:
 
 ```bash
     yolo detect train data=data.yaml model=yolov8s.pt epochs=30 imgsz=640 batch=16 device=0
+```
+
+Note: If running on a non-CUDA enabled device, run the following command instead:
+
+```bash
+    yolo detect train data=data.yaml model=yolov8s.pt epochs=30 imgsz=640 batch=16 device=cpu
 ```
 
 ---
