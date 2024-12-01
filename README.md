@@ -1,4 +1,4 @@
-# ACAI-ConvNet
+# ACAI-YOLOv8
 
 ## Abstract
 
